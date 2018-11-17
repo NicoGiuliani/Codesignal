@@ -1,20 +1,18 @@
-function medianScores(scores) {
+const medianScores = scores => {
+    const temp = new Array(scores.length);
+    const count = arr => { return arr.filter(n => n != null).length; }
+    let upper, c;
     
-    let medians = [];
-    let temp, upper, lower;
-    
-    for (let i = 1; i < scores.length + 1; i++) {
-        temp = scores.slice(0, i).sort();
-        console.log(temp);
-        if (temp.length % 2 == 0) {
-            console.log("temp", temp.sort((a, b) => b - a));
-            upper = temp[Math.ceil((temp.length - 1) / 2)];
-            lower = temp[Math.floor((temp.length - 1) / 2)];
-            medians.push(Math.ceil((upper + lower) / 2));
-        } else {
-            console.log("temp", temp.sort((a, b) => b - a));
-            medians.push(temp[(temp.length - 1) / 2]);
-        }
+    for (let i in scores) {
+        temp[i] = scores[i];
+        temp.sort((a, b) => a - b);
+        c = count(temp);
+        if (c % 2) scores[i] = temp[Math.floor(c / 2)];
+        else {
+            upper = Math.ceil((c / 2));
+            scores[i] = Math.ceil((temp[upper] + temp[upper - 1]) / 2);
+        } 
     }
-    return medians;
+    
+    return scores;
 }
