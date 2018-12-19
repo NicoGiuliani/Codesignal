@@ -11,16 +11,3 @@ function sleddingHills(enjoyability, maxRuns) {
     
     return answer;  
 }
-
-
-
-sleddingHills = (e, r) => {
-    a = 0
-    for (i = 0; i < r; i++) {
-        m = Math.max(...e)
-        j = e.indexOf(m)
-        a += m
-        if (e[j] > 0) e[j]--
-    }
-    return a  
-}
