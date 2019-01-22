@@ -1,5 +1,4 @@
 function countAtoms(molecule) {
-
     let molecules = [];
     let temp = molecule[0];
     for (let i = 1; i < molecule.length; i++) {
