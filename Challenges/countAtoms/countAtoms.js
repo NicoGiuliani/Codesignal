@@ -1,4 +1,5 @@
-function countAtoms(molecule) {
+function countAtoms(molecule) { 
+
     let molecules = [];
     let temp = molecule[0];
     for (let i = 1; i < molecule.length; i++) {
@@ -41,7 +42,6 @@ function countAtoms(molecule) {
         } else {
             molecules[i] += lastMult;
         }
-        
         
     }
     console.log(molecules);
