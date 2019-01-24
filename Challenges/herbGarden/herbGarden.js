@@ -1,21 +1,34 @@
 function herbGarden(plants, days) {
     
     let leaves = 0;
+    let chosen, index, half, rounded, tempIndex;
     
     for (let i = 0; i < days; i++) {
-        // morning
         console.log(plants);
-        let m = Math.max(...plants);
-        let index = plants.indexOf(m);
-        console.log('m', m);
+        chosen = Math.max(...plants);
+        index = plants.indexOf(chosen);
+        half = chosen / 2;
+        rounded = Math.floor(half);
         
-        let collection = Math.floor(m / 2);
-        console.log('c', collection);
-        leaves += collection;
-        plants[index] = m - collection;
+        if (rounded !== half) {
+           console.log("decimal value", half);
+           tempIndex = plants.indexOf(rounded * 2);
+           console.log("tempIndex", tempIndex);
+                
+           if (tempIndex > -1) {
+              index = tempIndex;
+              chosen = plants[index];
+           }  
+            
+        }
+        
+        
+        console.log("rounded", rounded);
+        leaves += rounded;
+        plants[index] = chosen - rounded;
         
         console.log(plants);
-        
+                    
         // over night
         for (let j = 0; j < plants.length; j++) plants[j] += 2;
         
@@ -23,7 +36,6 @@ function herbGarden(plants, days) {
         console.log("--------------");
     }
     
-    console.log(leaves);
     return leaves;
     
     
