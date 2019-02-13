@@ -1,0 +1,1 @@
+countSumOfTwoRepresentations = (n, l, r) => (l > n / 2) ? 0 : (r - l) / 2 + 1
