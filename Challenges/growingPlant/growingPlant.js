@@ -1,0 +1,1 @@
+growingPlant = (u, d, g) => { for (i = 0;; i++) if (u + (u - d) * i >= g) return i + 1 }
