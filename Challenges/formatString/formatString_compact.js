@@ -1,0 +1,1 @@
+formatString = i => i.split(' ').filter(x => x != '').join(' ')
