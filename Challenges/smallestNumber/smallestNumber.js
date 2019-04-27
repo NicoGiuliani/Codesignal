@@ -1,0 +1,1 @@
+smallestNumber = n => ((r = Math.pow(10, n - 1)) == 1) ? 0 : r
