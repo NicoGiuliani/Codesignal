@@ -1,0 +1,1 @@
+makeArrayConsecutive2 = s => Math.max(...s) - Math.min(...s) + 1 - s.length
