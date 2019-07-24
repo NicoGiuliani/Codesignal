@@ -1,7 +1,0 @@
-C:\Users\njulian\source\repos\Codesignal\Company Challenges\SpaceX\src\SpaceX\SpaceX\bin\Debug\SpaceX.exe.config
-C:\Users\njulian\source\repos\Codesignal\Company Challenges\SpaceX\src\SpaceX\SpaceX\bin\Debug\SpaceX.exe
-C:\Users\njulian\source\repos\Codesignal\Company Challenges\SpaceX\src\SpaceX\SpaceX\bin\Debug\SpaceX.pdb
-C:\Users\njulian\source\repos\Codesignal\Company Challenges\SpaceX\src\SpaceX\SpaceX\obj\Debug\SpaceX.csprojAssemblyReference.cache
-C:\Users\njulian\source\repos\Codesignal\Company Challenges\SpaceX\src\SpaceX\SpaceX\obj\Debug\SpaceX.csproj.CoreCompileInputs.cache
-C:\Users\njulian\source\repos\Codesignal\Company Challenges\SpaceX\src\SpaceX\SpaceX\obj\Debug\SpaceX.exe
-C:\Users\njulian\source\repos\Codesignal\Company Challenges\SpaceX\src\SpaceX\SpaceX\obj\Debug\SpaceX.pdb
