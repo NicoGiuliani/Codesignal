@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceX", "SpaceX\SpaceX.csproj", "{8F0D96A7-1328-4515-BA38-80B00B83544D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceX", "src\SpaceX.csproj", "{6E4BF97E-77DA-45AF-813E-2FC6BCA50688}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8F0D96A7-1328-4515-BA38-80B00B83544D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F0D96A7-1328-4515-BA38-80B00B83544D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F0D96A7-1328-4515-BA38-80B00B83544D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F0D96A7-1328-4515-BA38-80B00B83544D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E4BF97E-77DA-45AF-813E-2FC6BCA50688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4BF97E-77DA-45AF-813E-2FC6BCA50688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4BF97E-77DA-45AF-813E-2FC6BCA50688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4BF97E-77DA-45AF-813E-2FC6BCA50688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E7F2EC72-C8F6-4956-8B64-E06693E6CC6A}
+		SolutionGuid = {4739BEF0-03EF-401C-95BE-AC46FAB20689}
 	EndGlobalSection
 EndGlobal

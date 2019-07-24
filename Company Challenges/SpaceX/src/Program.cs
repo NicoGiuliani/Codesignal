@@ -22,7 +22,7 @@ namespace SpaceX
 
             CpuEmulator.Emulate(subroutine1);
 
-            Console.Write("\nPress any key to exit. ");
+            Console.Write("\nPress any key to exit... ");
             Console.ReadKey();
         }
     }
